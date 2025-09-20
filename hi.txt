@@ -1,3 +1,14 @@
 19-sep-vij
 bsc air
 awesome 
+
+
+
+
+<? php
+$flg=is_readable("./bsc.text");
+if($flg==true)
+{
+echo("file is readable");
+}
+else
